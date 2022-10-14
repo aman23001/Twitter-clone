@@ -12,7 +12,7 @@ Let’s make simple Twitter. Users can post tweets and see everyone’s them.
 
 ## [Live Heroku Deployment]()
 
-##Screenshot.
+## Screenshot.
 ![Screenshot ]
 (112 kB)![Capture](https://user-images.githubusercontent.com/109710094/195743006-0a1f8e0b-d241-42da-812a-32ccfd2b505b.PNG)
 
