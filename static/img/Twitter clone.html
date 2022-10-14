@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:8000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Twitter clone_files/twitter.png">
+    <title>Twitter clone</title>
+    
+    <link href="./Twitter clone_files/style.css" rel="stylesheet">
+</head>
+<body>
+     
+
+<section id="title">
+  <a href="http://127.0.0.1:8000/">
+      <img class="white-logo" src="./Twitter clone_files/twitter.png" alt="White twitter logo">
+      </a>
+  <h1 class="he">Home</h1>
+
+</section>
+
+<section class="content">
+  <section class="post_form">
+      <form action="http://127.0.0.1:8000/" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="csrfmiddlewaretoken" value="nODXCYq2vXnxJWRadIqEZbeuo2xylKpY2EBNPkiAEKdRctzOHk4ZLqVtbJKa3euH">
+        
+          
+    <input type="text" name="name" placeholder="Name" required="">
+    <textarea name="body" placeholder="Tell us anything" required=""> </textarea>   
+    <input id="upload-file" type="file" value="Choose File" name="image">
+    <div class="but">
+      <input type="submit" id="tweet-button" value="Tweet">  
+    </div>
+  
+   
+</form>
+      
+  </section>  
+  <div class="divider"></div>
+  <section class="posts">
+      <ul>
+          
+      
+      <li>
+        <img class="menu_icon js-menu-icon" src="./Twitter clone_files/more.png">
+        <div class="menu">
+          <a href="http://127.0.0.1:8000/edit/27/">Edit</a> 
+          <br>
+          <a href="http://127.0.0.1:8000/delete/27/">Delete</a>
+        </div>
+          <div class="logo">
+      <img src="./Twitter clone_files/user.png">
+      </div>
+    
+      <div class="name_body">
+      <div class="name"> sdas <br></div> 
+        <div class="datetime"> Oct. 6, 2022, 7:05 a.m. </div> 
+      <br>
+         <p> sadasd<br></p> 
+         <br>
+        
+                <form id="likes-form" action="http://127.0.0.1:8000/like/27/" method="POST"></form>
+                        <input type="hidden" name="csrfmiddlewaretoken" value="nODXCYq2vXnxJWRadIqEZbeuo2xylKpY2EBNPkiAEKdRctzOHk4ZLqVtbJKa3euH">
+                    <button class="like-button" type="submit" ,="" name="post_id" value="27">
+                      ❤
+                    </button>
+                    0
+                 
+        </div>
+       </li>
+     
+       </ul>
+       
+      <li>
+        <img class="menu_icon js-menu-icon" src="./Twitter clone_files/more.png">
+        <div class="menu">
+          <a href="http://127.0.0.1:8000/edit/26/">Edit</a> 
+          <br>
+          <a href="http://127.0.0.1:8000/delete/26/">Delete</a>
+        </div>
+          <div class="logo">
+      <img src="./Twitter clone_files/user.png">
+      </div>
+    
+      <div class="name_body">
+      <div class="name"> vjbnbv <br></div> 
+        <div class="datetime"> Oct. 6, 2022, 7:01 a.m. </div> 
+      <br>
+         <p> vbvbvjb<br></p> 
+         <br>
+        
+                <form id="likes-form" action="http://127.0.0.1:8000/like/26/" method="POST"></form>
+                        <input type="hidden" name="csrfmiddlewaretoken" value="nODXCYq2vXnxJWRadIqEZbeuo2xylKpY2EBNPkiAEKdRctzOHk4ZLqVtbJKa3euH">
+                    <button class="like-button" type="submit" ,="" name="post_id" value="26">
+                      ❤
+                    </button>
+                    0
+                 
+        </div>
+       </li>
+     
+       
+       
+      <li>
+        <img class="menu_icon js-menu-icon" src="./Twitter clone_files/more.png">
+        <div class="menu">
+          <a href="http://127.0.0.1:8000/edit/25/">Edit</a> 
+          <br>
+          <a href="http://127.0.0.1:8000/delete/25/">Delete</a>
+        </div>
+          <div class="logo">
+      <img src="./Twitter clone_files/user.png">
+      </div>
+    
+      <div class="name_body">
+      <div class="name"> hsdbvdsf <br></div> 
+        <div class="datetime"> Oct. 6, 2022, 6:59 a.m. </div> 
+      <br>
+         <p> sdfsdfmnbsdf<br></p> 
+         <br>
+        
+        <img class="post-border" src="./Twitter clone_files/gnghuih374bjiwbzfihh.jpg" style="width :370px; height:370px;">
+                
+                <form id="likes-form" action="http://127.0.0.1:8000/like/25/" method="POST"></form>
+                        <input type="hidden" name="csrfmiddlewaretoken" value="nODXCYq2vXnxJWRadIqEZbeuo2xylKpY2EBNPkiAEKdRctzOHk4ZLqVtbJKa3euH">
+                    <button class="like-button" type="submit" ,="" name="post_id" value="25">
+                      ❤
+                    </button>
+                    0
+                 
+        </div>
+       </li>
+     
+       
+       
+  </section> 
+
+  
+  <script src="./Twitter clone_files/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="./Twitter clone_files/posts.js">
+  </script>
+</section>
+
+
+    
+
+</body></html>
